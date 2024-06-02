@@ -3970,3 +3970,57 @@
 			}
 
 		}
+
+		/*Added styling not from template*/
+		.swiper-thumb {
+			position: relative;
+			padding: 20px;
+			background-color: #fff7e6; /* Very light orange background */
+			border-radius: 10px;
+			overflow: hidden; /* Ensure images do not display outside the border */
+		}
+		.swiper-thumb h2 {
+			position: absolute;
+			top: 10px;
+			left: 20px;
+			color: rgb(95, 29, 29);
+			z-index: 10;
+		}
+		.swiper-slide img {
+			width: 100%;
+			border-radius: 10px; /* Match the border radius of the swiper-thumb */
+		}
+		.swiper-button-next, .swiper-button-prev {
+			color: rgb(95, 29, 29);
+		}
+		.bg-light-orange {
+			background-color: #fff7e6; /* Very light orange background */
+		}
+			.entry-meta {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+			}
+			.square {
+				display: block;
+				width: 80px;
+				height: 80px;
+				overflow: hidden;
+			}
+			.square img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+			@media (max-width: 767px) {
+				.entry-meta {
+					align-items: center;
+					text-align: center;
+				}
+				.entry-meta ul {
+					padding: 0;
+				}
+				.square {
+					margin-bottom: 10px;
+				}
+			}
