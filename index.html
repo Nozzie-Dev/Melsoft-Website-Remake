@@ -20,27 +20,39 @@
 <body>
 
     <!-- Header -->
-    <header id="header" class="bg-dark text-white py-3">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="index.html">melsoft.co.za</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="#banner">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Work">Work</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Reviews">Reviews</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Blog">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- Navbar brand or logo -->
+          <a class="navbar-brand" href="#">
+            <img class="logo-default img-fluid mb-3" src="images/Melsoft-Logo-White-1-1024x229.webp" alt="Melsoft Logo">
+          </a>
+          
+          <!-- Navbar toggler for small screens -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Navbar content -->
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#banner" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="#Services" class="nav-link">Services</a></li>
+              <li class="nav-item"><a href="#Work" class="nav-link">Work</a></li>
+              <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#Reviews" class="nav-link">Reviews</a></li>
+              <li class="nav-item"><a href="#Blog" class="nav-link">Blog</a></li>
+              <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+          
+          <!-- Button to book a call -->
+          <div class="d-flex align-items-center">
+            <button type="button" class="btn btn-primary">Book A Call</button>
+          </div>
         </div>
-    </header>
+      </nav>
+      
+      
 
     <!-- Banner -->
     <section id="banner" class=" text-white text-center py-5">
@@ -54,9 +66,11 @@
     <!-- About -->
     <section id="About" class="py-5">
         <div class="container">
-            <h4>About us</h4>
+            <header class="align-center">
+                <h2>About Us</h2>
+            </header>
             <header>
-                <h2>Where Future-Proof Strategy Meets Digital Innovation</h2>
+                <h3>Where Future-Proof Strategy Meets Digital Innovation</h3>
             </header>
             <p>Through unified branding, future-forward software development, and strategic digital marketing, Melsoft works with the world’s most ambitious brands in creating innovative digital products designed to fuel innovation.</p>
             <a href="#" class="btn btn-secondary">Read More</a>
@@ -66,7 +80,9 @@
     <!-- Services -->
     <section id="Services" class="py-5 bg-light">
         <div class="container">
-            <h4>Services</h4>
+            <header class="align-center">
+                <h2>Services</h2>
+            </header>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card">
@@ -119,6 +135,9 @@
 
     <!-- Work -->
     <section id="Work">
+        <header class="align-center">
+            <h2>Our Work</h2>
+        </header>
         <div class="inner">
             <div>
                 <div class="box">
@@ -307,7 +326,7 @@
     <!-- Footer -->
     <footer class="py-4 bg-dark text-white">
         <div class="container text-center">
-            <p></p>
+            <p>Melsoft bott</p>
         </div>
     </footer>
 
