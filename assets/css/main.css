@@ -3975,7 +3975,7 @@
 		.swiper-thumb {
 			position: relative;
 			padding: 20px;
-			background-color: #fff7e6; /* Very light orange background */
+			background-color: #e5474b; 
 			border-radius: 10px;
 			overflow: hidden; /* Ensure images do not display outside the border */
 		}
@@ -3988,13 +3988,13 @@
 		}
 		.swiper-slide img {
 			width: 100%;
-			border-radius: 10px; /* Match the border radius of the swiper-thumb */
+			border-radius: 10px; 
 		}
 		.swiper-button-next, .swiper-button-prev {
 			color: rgb(95, 29, 29);
 		}
 		.bg-light-orange {
-			background-color: #fff7e6; /* Very light orange background */
+			background-color: #e5474b; 
 		}
 			.entry-meta {
 				display: flex;
@@ -4023,4 +4023,22 @@
 				.square {
 					margin-bottom: 10px;
 				}
+			}
+
+			.entry-meta ul {
+				list-style: none; /* Removes bullet points */
+				padding: 0;       /* Removes default padding */
+				margin: 0;        /* Removes default margin */
+				
+			}
+			
+			.entry-meta ul li i {
+				margin-right: 2px; /* Adds space between icon and text */
+			}
+
+			.row.g-0 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				
 			}
